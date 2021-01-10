@@ -1,8 +1,6 @@
 <template>
   <div>
-    <section
-      style="display: flex; justify-content: center; padding: 20px; margin: 20px"
-    >
+    <section style="display: flex; justify-content: center;">
       <article style="width: 320px; padding: 20px; border: 1px solid #c9c9c9;">
         <img
           src="https://i.pinimg.com/236x/7d/55/36/7d553667b713a176c9f107eac871052c--retro-ads-retro-vintage.jpg"
@@ -53,7 +51,7 @@ export default {
 <style lang="scss" scoped>
 .card-row {
   display: grid;
-  grid-template-columns: repeat(2, 100%);
+  grid-template-columns: repeat(3, 100%);
   justify-content: center;
 }
 

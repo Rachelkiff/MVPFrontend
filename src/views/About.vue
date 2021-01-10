@@ -18,7 +18,7 @@
      </h3>
      <img src="@/assets/MOM2.jpg" width="200" height="200"/>
      <img src="@/assets/MOM1.jpg" width="200" height="200"/>
-     
+     <p>&copy; 2020 Rachel  Kiffiak</p>
     </div>
 </template>
 

@@ -5,7 +5,7 @@
     <router-link to="/landingpage"><strong> Log out </strong> </router-link>
     <h1><strong>Welcome to my Recipe Share Page! </strong></h1>
     <hr>
-   <section style="display: flex; justify-content: center; padding: 20px; margin: 20px">
+   <section style="display: flex; justify-content: center;">>
       <article style="width: 320px; padding: 20px; border: 1px solid #c9c9c9;">
         <img src="https://i.ebayimg.com/images/g/BvIAAOSwnbxdAkeH/s-l300.jpg" alt="Old fashioned recipe card">
         <div v-for="recipe in recipes" :key="recipe[0]">
@@ -16,6 +16,8 @@
     <post-recipe />
      <top-page />
      <delete-recipe />
+     <hr>
+      <p>&copy; 2020 Rachel  Kiffiak</p>
      </div>
 </template>
 
@@ -70,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 .card-row {
   display: grid;
-  grid-template-columns: repeat(2, 100%);
+  grid-template-columns: repeat(3, 100%);
   justify-content: center;
 }
 
@@ -112,7 +114,7 @@ button {
   padding: 0.5em 1em;
   border-radius: 4px;
   display: inline-block;
-  font-family:  'Lobster Two', cursive;
+
   
 }
 

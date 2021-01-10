@@ -3,6 +3,7 @@
    
     <signup-page></signup-page>
     <login-page></login-page>
+    <p>&copy; 2020 Rachel  Kiffiak</p>
   </div>
 </template>
 
