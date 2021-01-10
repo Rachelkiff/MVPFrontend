@@ -1,6 +1,6 @@
 <template>
-  <div class="background">
-    <h1></h1>
+<div class="routes" id="wrap">
+   
     <signup-page></signup-page>
     <login-page></login-page>
   </div>
@@ -21,10 +21,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.background {
-  margin: 0;
-  padding: 0;
+#wrap { 
+	width: 800px; 
+	margin: 0 auto; 
+  text-align: center;
 }
+.routes{
+  font-family: 'EB Garamond', serif;
+  justify-content: center;
+}
+
 
 @media only screen and (min-width: 600px) {
 }

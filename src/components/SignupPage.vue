@@ -1,6 +1,6 @@
 <template>
-  
-    <div class="container" :class="{ 'sign-up-active': signUp }">
+
+  <div class="container" :class="{ 'sign-up-active': signUp }">
       <div class="overlay-container">
         <div class="overlay">
           <div class="overlay-left">
@@ -11,7 +11,7 @@
             </button>
           </div>
           <div class="overlay-right">
-            <h1>Welcome</h1>
+            <h1>Welcome to my Recipe Share Page!</h1>
             <h3>Enter your information to sign up!</h3>
             <button class="invert" id="signUp" @click="signUp = !signUp">
               Sign Up
@@ -32,7 +32,7 @@
       </form>
       <form class="sign-in" action="javascript:void(0)">
         <h1>Sign In</h1>
-        <h3>Use your email to sign in</h3>
+        <h3>Use your email and password to sign in</h3>
         <p>Email</p>
         <input type="email" v-model="email" />
         <p>Password</p>
@@ -40,6 +40,7 @@
         <button @click="loginUser">Sign in</button>
       </form>
     </div>
+  
 </template>
 
 <script>
@@ -113,8 +114,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 .container {
-  justify-content: center;
   position: relative;
   width: 768px;
   height: 480px;

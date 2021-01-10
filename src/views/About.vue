@@ -1,5 +1,8 @@
 <template>
     <div>
+    <router-link to="/about"><strong> About </strong> </router-link>|
+    <router-link to="/profilepage"><strong>Profile Page </strong></router-link>|
+    <router-link to="/landingpage"><strong> Log out </strong> </router-link>
      <h1>About my Page!</h1>
      <hr>
      <h3>I wanted to set up a site where people could share their family recipies. 

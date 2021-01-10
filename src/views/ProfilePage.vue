@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1><strong>Wecome to my Recipe Share Page! </strong></h1>
+    <router-link to="/about"><strong> About </strong> </router-link>|
+    <router-link to="/profilepage"><strong>Profile Page </strong></router-link>|
+    <router-link to="/landingpage"><strong> Log out </strong> </router-link>
+    <h1><strong>Welcome to my Recipe Share Page! </strong></h1>
     <hr>
    <section style="display: flex; justify-content: center; padding: 20px; margin: 20px">
       <article style="width: 320px; padding: 20px; border: 1px solid #c9c9c9;">
@@ -100,10 +103,7 @@ export default {
   border-radius: 4px;
 }
 
-.card p {
-  color: #757575;
-  line-height: 1.5;
-}
+
 
 button {
   text-decoration: none;

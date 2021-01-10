@@ -29,7 +29,7 @@ export default {
       axios
         .request({
           method: "DELETE",
-          url: "https://tweeterest.ml/api/login",
+          url: " http://127.0.0.1:5000/api/user",
           headers: {
             "Content-Type": "application/json"
           },
